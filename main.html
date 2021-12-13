@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Всё про домашние растения: виды, особенности, уход, галерея" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="D:\coursework\img\favicon.ico" type="image/x-icon">
+    <title>Домашние растения</title>
+    <link rel="stylesheet" href="styles\style.css">
+    <link rel="stylesheet" href="styles\styleofslider.css">
+</head>
+<body>
+    <script src="scripts\scriptforsearching.js"></script>	
+    <header class="header">
+     <img src="img\logotype.png" class="logo">
+     <h2 class="mytitle">Домашние растения</h2>
+        <nav class="menu">
+            <ul>
+            <li class = "headmenu"><a class="menua" href="main.html">Главная</a></li>
+            <li class = "headmenu"><a  class="menua" href="typesofflowers.html">Виды растений</a></li>
+            <li class = "headmenu"><a  class="menua" href="useful.html">Полезное</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="content-container">
+            <div class="text-container">
+                <h1>Немного о пользе комнатных растений</h1>
+                <p class="subtitle">
+                    Домашние растения – это молчаливые помощники, верные друзья и лекари их владельцев. 
+                    Поглощая газы и вредные вещества из окружающего воздуха, комнатные растения приносят пользу хозяевам квартир 
+                    и оказывают положительное влияние на здоровье человека. Кроме того, они поглощают негативную ауру, а выделяют флюиды 
+                    радости и счастья.
+                </div>
+            <video width="400" height="300" autoplay muted loop src="video\seed.mp4"></video>
+        </div>
+    </section>
+    <script src = "scripts\scriptformenu.js"></script>
+        <button id ="hide" onclick="chpok('x')" ><img src="img\hiden.png" width="30em" height="40em"></button>
+    <div id = "x" class="sidebar">
+        <form>
+            <input type="text"  id = "input-id" placeholder="Искать здесь...">
+            <button type="submit" id="poisk" onClick="search()"><img id = "but"src="img\searchinglabel.png" width="20em" height="20em"></button>
+          </form>
+           <ul class = "menu2">
+            <li class = "headmenu2"><a class = "menua2" href="main.html">Главная</a></li>
+            <li class = "headmenu2"><a class = "menua2" href="typesofflowers.html">Виды растений</a></li>
+            <li class = "headmenu2"><a class = "menua2" href="actual.html">Актуальное</a></li>
+            <li class = "headmenu2"><a class = "menua2" href="useful.html">Полезное</a></li>
+            <li class = "headmenu2"><a class = "menua2" href="rec.html">Советы новичкам</a></li>
+            </ul>
+        </div>
+        <div class="content-container-2">
+            <div class = "sliderwithdots">
+            <div class="slider">
+                <div class="item">
+                  <img src="img\succulents.jpg" alt="Первый слайд">
+              </div>
+          
+              <div class="item">
+                  <img src="img\plants.jpg" alt="Второй слайд">
+              </div>
+          
+              <div class="item">
+                  <img src="img\flowers.jpg" alt="Третий слайд">
+              </div>
+          
+              <div class="item">
+                  <img src="img\roses.jpg" alt="Четвертый слайд">
+              </div>
+          
+              <div class="item">
+                  <img src="img\roses1.jpg" alt="Пятый слайд">
+              </div>
+          
+              <div class="item">
+                  <img src="img\green.jpg" alt="Шестой слайд">
+              </div>
+          </div>
+          <br>
+          <div class="slider-dots">
+            <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+              <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+              <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+              <span class="slider-dots_item" onclick="currentSlide(4)"></span> 
+              <span class="slider-dots_item" onclick="currentSlide(5)"></span> 
+              <span class="slider-dots_item" onclick="currentSlide(6)"></span> 
+        </div>
+        </div>
+          <div class="text">
+            Именно комнатные растения очищают воздух от вредных примесей, улучшают его качество, а также качество жизни и состояние 
+            здоровья проживающих в доме людей и животных. Эта их способность обусловлена тем, что все растения выделяют фитонциды, 
+            губительные для болезнетворных бактерий.
+        </div>
+        </div>
+        <section>
+            <div class="content-container-3">
+                <img id = "adapt" src ="img\beauty2.png" width="30%" height="40%">
+                <div class="text-container-2">
+                    <p>
+                        Еще в древности было подмечено позитивное влияние различных цветов комнатных растений на психологическое и эмоциональное 
+                        самочувствие людей. Сегодня даже существует целое направление в психологии, которое называется цветотерапией.</p>
+                    </div>
+            </div>
+        </section>
+          <script src="scripts\scriptforslider.js"></script>	
+</body>
+</html>
+  <footer> 2021© Student MIREA. ALL RIGHTS RESERVED </footer> 

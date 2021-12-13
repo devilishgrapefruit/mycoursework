@@ -1,0 +1,23 @@
+
+.content-container-4 {
+    padding: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5em;
+    margin: 0 auto;
+    align-self: center;
+}
+.text-container-4 {
+    color: white;
+    font-size: 1.3em;
+    font-family: 'Pacifico';
+    -webkit-text-stroke: 0.2mm #000000;
+    -ms-text-stroke: 0.2mm #000000;
+    -moz-text-stroke: 0.2mm #000000;
+    letter-spacing: 0.4mm;
+    padding-left: 2em;
+    width: 50%;
+    background: linear-gradient(45deg, #8d45a5, #af53ca, #b047aa, #934392);
+}
+

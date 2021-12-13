@@ -1,0 +1,21 @@
+.text2{
+    background: linear-gradient(45deg, #671a80, #69267d, #51154e, #5b145a);
+    color: white;
+    font-size: 1.8em;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0.2mm #000000;
+    -moz-text-stroke: 0.2mm #000000;
+    -ms-text-stroke: 0.2mm #000000;
+    font-family: 'Arial';
+    width: 83%;
+    padding-left: 0.5em;
+
+}
+#type2{
+    padding-left: 2em;
+}
+#zem{
+   padding-left: 10em;
+   width: 70% ;
+   height: 50%;
+}

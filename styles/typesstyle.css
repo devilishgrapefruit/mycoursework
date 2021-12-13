@@ -1,0 +1,27 @@
+.imgtype{
+    width: 23%;
+    height: 33%;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 2em;
+    padding-bottom: 1em;
+}
+#type1, .type1{
+    padding-left: 4em;
+}
+.text1{
+    color: white;
+    font-size: 1.3em;
+    font-family: 'Pacifico';
+    -webkit-text-stroke: 0.2mm #000000;
+    -ms-text-stroke: 0.2mm #000000;
+    -moz-text-stroke: 0.2mm #000000;
+    letter-spacing: 0.4mm;
+    padding-left: 2em;
+    width: 83%;
+    background: linear-gradient(45deg, #762f8e, #9740b1, #962b91, #541753);
+}

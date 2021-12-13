@@ -1,0 +1,12 @@
+.ill{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+.harm{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap:5em;
+}

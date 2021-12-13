@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Всё про домашние растения: виды, особенности, уход, галерея" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="D:\coursework\img\favicon.ico" type="image/x-icon">
+    <title>Виды растений</title>
+    <link rel="stylesheet" href="styles\style.css">
+    <link rel="stylesheet" href="styles\typesstyle.css">
+</head>
+<body>
+    <script src="scripts\scriptforsearching.js"></script>	
+    <header class="header">
+     <img src="img\logotype.png" class="logo">
+     <h2 class="mytitle">Домашние растения</h2>
+        <nav class="menu">
+            <ul>
+            <li class = "headmenu"><a class="menua" href="main.html">Главная</a></li>
+            <li class = "headmenu"><a  class="menua" href="typesofflowers.html">Виды растений</a></li>
+            <li class = "headmenu"><a  class="menua" href="useful.html">Полезное</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="type1">
+        <div class = "text1">
+            <h2>Декоративнолистные растения</h2>
+            <ul>
+                <li>Деревья</li>
+                <li>Кустовидные растения</li>
+                <li>Лианы, ампельные, почвопокровные</li>
+                <li>Ложные пальмы</li>
+                <li>Хищные растения</li>
+            </ul>
+            <p>Составляют неотъемлемую часть интерьера. Как правило, цветут мелкими и не декоративными цветками. 
+                Выращиваются из-за своих красивых листьев обычно зеленого цвета или других необычных расцветок: 
+                желтые, красные, некоторые растения имеют листья, меняющие цвет осенью. Формы листьев бывают: 
+                лопастные, рассеченные, линейные, овальные, и др. Большинство листовых пластинок имеют зубчатые края.</p>
+                <div class="cards">
+                    <img class="imgtype" src="types\type11.jpg">
+                    <img class="imgtype" src="types\type12.jpg">
+                    <img class="imgtype" src="types\type13.jpg">
+                </div>
+    </section>
+    <section id="type1">
+        <div class = "text1">
+            <h2>Декоративноцветущие растения</h2>
+            <p>Эта наиболее обширная группа комнатных растений по праву считается наиболее ценной для выращивания в комнатах. 
+                Некоторые растения образуют ягоды и фрукты.Растения цветут в различные периоды года, некоторые - круглый год. 
+                Продолжительность цветения каждого вида колеблется от нескольких дней до нескольких месяцев. Среди множества 
+                цветущих растений встречаются однолетние, увядающие после первого цветения.</p>
+                <div class="cards">
+                    <img class="imgtype" src="types\type21.jfif">
+                    <img class="imgtype" src="types\type22.jpg">
+                    <img class="imgtype" src="types\type23.jfif">
+                </div>
+    </section>
+    <section id="type1">
+        <div class = "text1">
+            <h2>Кактусы и суккуленты</h2>
+            <p>К этой группе относятся представители различных семейств, сходные по внешнему облику и биологическим особенностям. 
+                Суккуленты способны запасать влагу в своих органах, преимущественно наземных. Представители группы широко распространены 
+                в комнатной культуре. Популярны в связи с необыкновенной устойчивостью, неприхотливостью, компактностью и декоративным цветением. 
+                Эта группа обладает разнообразием форм, оригинальными цветками, загадочным временем цветения (ночью).</p>
+                <div class="cards">
+                    <img class="imgtype" src="types\type31.jpg">
+                    <img class="imgtype" src="types\type32.jpg">
+                    <img class="imgtype" src="types\type33.jpg">
+                </div>
+    </section>
+    <section id="type1">
+        <div class = "text1">
+            <h2>Папоротники</h2>
+            <p>Эта группа растений обладает изящными декоративными листьями. Папоротники никогда не цветут, размножаются спорами, делением корневищ и выводковыми почками. 
+                Споры собраны в особых вместилищах - спорангиях - расположенных на нижней поверхности листьев.</p>
+                <div class="cards">
+                    <img class="imgtype" src="types\type41.jpe">
+                    <img class="imgtype" src="types\type42.jpg">
+                    <img class="imgtype" src="types\type43.jpg">
+                </div>
+    </section>
+    <section id="type1">
+        <div class = "text1">
+            <h2>Луковичные растения</h2>
+            <p>Луковичные растения очень декоративны и находят самое широкое применение в весеннем оформлении цветников, парков, дают прекрасный материал для срезки, незаменимы 
+                для весенних букетов, цветочных корзин и композиций. Луковичные растения выделяются из группы цветочных из-за их особенных требований к выращиванию.</p>
+                <div class="cards">
+                    <img class="imgtype" src="types\type51.jpg">
+                    <img class="imgtype" src="types\type52.jpg">
+                    <img class="imgtype" src="types\type53.jpg">
+                </div>
+    </section>
+    <script src = "scripts\scriptformenu.js"></script>
+        <button id ="hide" onclick="chpok('x')"><img src="img\hiden.png" width="30em" height="40em"></button>
+    <div id = "x" class="sidebar">
+        <form>
+            <input type="text"  id = "input-id" placeholder="Искать здесь...">
+            <button type="submit" onClick="search()"><img src="img\searchinglabel.png" width="20em" height="20em"></button>
+          </form>
+           <ul class = "menu2">
+            <li class = "headmenu2"><a class = "menua2" href="main.html">Главная</a></li>
+            <li class = "headmenu2"><a class = "menua2" href="typesofflowers.html">Виды растений</a></li>
+            <li class = "headmenu2"><a class = "menua2" href="actual.html">Актуальное</a></li>
+            <li class = "headmenu2"><a class = "menua2" href="useful.html">Полезное</a></li>
+            <li class = "headmenu2"><a class = "menua2" href="rec.html">Советы новичкам</a></li>
+            </ul>
+        </div>
+</body>
+</html>
+  <footer> 2021© Student MIREA. ALL RIGHTS RESERVED </footer> 
